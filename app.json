@@ -5,20 +5,24 @@
   "repository": "https://github.com/sharetribe/ftw-daily/",
   "env": {
     "REACT_APP_MAPBOX_ACCESS_TOKEN": {
-      "description": "See: Integrating to map providers documentation https://github.com/sharetribe/ftw-daily/blob/master/docs/map-providers.md"
+      "description": "See: Integrating to map providers documentation https://github.com/sharetribe/ftw-daily/blob/master/docs/map-providers.md",
+      "value": "pk.eyJ1IjoiZGVsdmFsbGVqaG9ucGF1bCIsImEiOiJja2F2cXBrNDkxMXhlMnJvaHkwb21ncHB3In0.JHc5huIRhZqAW7RjlEGuhw"
     },
     "REACT_APP_SHARETRIBE_SDK_CLIENT_ID": {
-      "description": "Client ID (API key). You will get this from the Sharetribe team."
+      "description": "Client ID (API key). You will get this from the Sharetribe team.",
+      "value": "9c30614529f66d9de0155acfa94e9735cfe25a2c"
     },
     "REACT_APP_STRIPE_PUBLISHABLE_KEY": {
-      "description": "Stripe publishable API key for generating tokens with Stripe API. Use test key (prefix pktest) for development."
+      "description": "Stripe publishable API key for generating tokens with Stripe API. Use test key (prefix pktest) for development.",
+      "value": "pk_test_hi9NrvfVEYpG0nlNFWhUHSho003G10unlq"
     },
     "REACT_APP_SHARETRIBE_MARKETPLACE_CURRENCY": {
       "description": "The currency used in the Marketplace as ISO 4217 currency code. For example: USD, EUR, CAD, AUD, etc.",
       "value": "USD"
     },
     "REACT_APP_CANONICAL_ROOT_URL": {
-      "description": "Canonical root url of the marketplace. E.g. https://the-name-of-your-app.herokuapp.com or your actual domain. This is needed for social media sharing and SEO optimization."
+      "description": "Canonical root url of the marketplace. E.g. https://the-name-of-your-app.herokuapp.com or your actual domain. This is needed for social media sharing and SEO optimization.",
+      "value": "https://ftwsharetribe.herokuapp.com"
     },
     "NODE_ENV": {
       "description": "Node env. Use 'development' for development and 'production' for production.",
